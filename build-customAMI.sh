@@ -7,5 +7,5 @@ sudo apt-get update -y
 sudo apt-get install tomcat9-admin tomcat9-common -y
 sudo apt-get install tomcat9 -y
 cd /var/lib/tomcat9/webapps/
-sudo wget https://alpha-bucket-us-east-2.s3.us-east-2.amazonaws.com/alpha.war
+sudo wget https://alpha-bucket-sandeep.s3.amazonaws.com/aws-alpha.war
 sudo systemctl start tomcat9
